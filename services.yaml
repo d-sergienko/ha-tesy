@@ -1,0 +1,13 @@
+boost_on:
+  description: Turn boost mode on for water_heater device.
+  fields:
+    entity_id:
+      description: Name(s) of entities to change.
+      example: "water_heater.water_heater"
+
+boost_off:
+  description: Turn boost mode off for water_heater device.
+  fields:
+    entity_id:
+      description: Name(s) of entities to change.
+      example: "water_heater.water_heater"
